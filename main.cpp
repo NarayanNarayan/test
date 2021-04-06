@@ -1,9 +1,18 @@
 
+	fd_set curr_sock,ready_sock;
+	struct timeval timeout;
 
-printf("Testing\n");
-printf("Testing\n");
-printf("Testing\n");
-printf("Testing\n");
+	struct {
+		char name[24];
+		char ip[16];
+		int port;
+	} user_info[5];
 
 
-printf("Testing\n");
+
+	typedef struct {
+		char  name[24];
+		char ip[16];
+		int port;
+		int fd;
+	}connection;
