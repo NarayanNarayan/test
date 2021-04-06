@@ -23,7 +23,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 
-#include <errno.h>
 #include <pthread.h>
 
 using namespace std;
